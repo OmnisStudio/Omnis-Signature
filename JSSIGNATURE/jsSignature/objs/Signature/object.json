@@ -1,0 +1,61 @@
+{
+	"ident": 1001,
+	"order": 1,
+	"objtype": "kComponent",
+	"componentlib": "jsControls",
+	"componentctrl": "net_omnis_signature",
+	"properties": {
+		"alpha": 255,
+		"backalpha": 255,
+		"backcolor": "RGB(255,255,221)",
+		"backgroundcolor": "RGB(204,0,0)",
+		"bordercolor": "RGB(255,255,0)",
+		"contextmenu": "",
+		"cssclassname": "",
+		"dataname": "iDataURL",
+		"desgroup": 0,
+		"designactive": true,
+		"deslock": false,
+		"disabledefaultcontextmenu": false,
+		"disablesystemfocus": true,
+		"dotsize": "1",
+		"dropmode": "kAcceptNone",
+		"effect": "kJSborderPlain",
+		"enabled": true,
+		"events": "",
+		"fieldstyle": "",
+		"maxwidth": "2",
+		"minwidth": "0.75",
+		"objlink": 0,
+		"pencolor": "kBlack",
+		"preventlayoutanimation": false,
+		"throttle": 16,
+		"tooltip": "",
+		"transparentbackground": true,
+		"userinfo": "",
+		"velocityfilterweight": "0.7",
+		"visible": true
+	},
+	"layout": {
+		"320": {
+			"left": 5,
+			"top": 50,
+			"width": 310,
+			"height": 170,
+			"dragborder": false,
+			"edgefloat": "kEFright",
+			"errortextpos": "kJSErrorTextPosUnder",
+			"visible": true
+		},
+		"768": {
+			"left": 5,
+			"top": 50,
+			"width": 755,
+			"height": 170,
+			"dragborder": false,
+			"edgefloat": "kEFright",
+			"errortextpos": "kJSErrorTextPosUnder",
+			"visible": true
+		}
+	}
+}

@@ -1,0 +1,7 @@
+On evClick
+	Do $cinst.$objs.Signature.$isempty() Returns lFlag
+	If lFlag
+		Do $cinst.$showmessage('Empty signature, please draw your signature and try again.','Error')
+	Else
+		Do method downloadImage
+	End If

@@ -1,0 +1,7 @@
+Do iJSFileRow.$define(iJSFileName,iJSMediaType,iJSVariableName)
+
+Calculate lDataURL as mid(iDataURL,pos(',',iDataURL)+1)
+Do OXML.$base64decode(lDataURL,lErrorText) Returns tJSFileBinData
+
+Do iJSFileRow.$assigncols(lFileName,'application/octet-stream','tJSFileBinData')
+Do $cinst.$objs.JSFormFile.$action.$assign(kJSFileActionDownload) Returns #F
