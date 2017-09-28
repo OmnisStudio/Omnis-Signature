@@ -7,6 +7,10 @@ Omnis Signature is a JSON defined component built around the signature pad avail
 
 A hosted version of Omnis Signature is running at http://omnisservice.mh.omnis-software.com/jsgallery/jssignature.htm for you to try. Sign your name and download your signature in jpg format.
 
+Screenshot
+
+<img src="screenshots/mromnis.png" width="60%" height="60%" />
+
 ## Contents
 
 This repository includes the following:
