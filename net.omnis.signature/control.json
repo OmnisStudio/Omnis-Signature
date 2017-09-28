@@ -1,0 +1,154 @@
+{
+    "name": "net.omnis.signature",
+    "flags": {
+        "beforeafterevents": false,
+        "beforeevents": false,
+        "backcolorandalpha": true,
+        "noenabled": false,
+        "transparentbackground": false,
+        "hasdefaultborder": true,
+        "hasdisplayformat": false,
+        "hasdragevents": false
+    },
+    "customtabname":  "Signature",
+    "standardproperties" :  [
+        "bordercolor",
+        "dataname",
+        "effect"
+    ],
+    "properties": {
+        "dotsize": {
+            "id": 1,
+            "desc": "Radius of a single dot",
+            "type": "character",
+            "tab": "custom",
+            "runtimeonly": false,
+            "extconstant": false,
+            "intconstant": false,
+            "constrangestart": "",
+            "constrangeend": "",
+            "initial": "1"
+        },
+        "minwidth": {
+            "id": 2,
+            "desc": "Minimum width of a line",
+            "type": "character",
+            "tab": "custom",
+            "runtimeonly": false,
+            "extconstant": false,
+            "intconstant": false,
+            "constrangestart": "",
+            "constrangeend": "",
+            "initial": "0.5"
+        },
+        "maxwidth": {
+            "id": 3,
+            "desc": "Maximum width of a line",
+            "type": "character",
+            "tab": "custom",
+            "runtimeonly": false,
+            "extconstant": false,
+            "intconstant": false,
+            "constrangestart": "",
+            "constrangeend": "",
+            "initial": "2.5"
+        },
+        "throttle": {
+            "id": 4,
+            "desc": "Draw the next point at most once per every x milliseconds, set it to 0 to turn off",
+            "type": "integer",
+            "tab": "custom",
+            "runtimeonly": false,
+            "extconstant": false,
+            "intconstant": false,
+            "constrangestart": "",
+            "constrangeend": "",
+            "initial": 16
+        },
+        "pencolor": {
+            "id": 6,
+            "desc": "Color used to draw the lines",
+            "type": "color",
+            "tab": "custom",
+            "runtimeonly": false,
+            "extconstant": false,
+            "intconstant": false,
+            "constrangestart": "",
+            "constrangeend": "",
+            "initial": ""
+        },
+        "velocityfilterweight": {
+            "id": 7,
+            "desc": "Weight used to modify new velocity based on the previous velocity",
+            "type": "character",
+            "tab": "custom",
+            "runtimeonly": false,
+            "extconstant": false,
+            "intconstant": false,
+            "constrangestart": "",
+            "constrangeend": "",
+            "initial": "0.7"
+        },
+        "backgroundcolor": {
+            "id": 8,
+            "desc": "Background color of image",
+            "type": "color",
+            "tab": "custom",
+            "runtimeonly": false,
+            "extconstant": false,
+            "intconstant": false,
+            "constrangestart": "",
+            "constrangeend": "",
+            "initial": 15658734
+        },
+        "transparentbackground": {
+            "id": 9,
+            "desc": "Ignore backgroundcolor",
+            "type": "boolean",
+            "tab": "custom",
+            "runtimeonly": false,
+            "extconstant": false,
+            "intconstant": false,
+            "constrangestart": "",
+            "constrangeend": "",
+            "initial": 1
+        }
+    },
+    "constants": {
+    },
+    "events": {
+        "evClick": {
+            "parameters": [
+                {
+                    "name": "xPos",
+                    "type": "integer",
+                    "desc": ""
+                },
+                {
+                    "name": "yPos",
+                    "type": "integer",
+                    "desc": ""
+                }
+            ]
+        }
+    },
+    "methods": {
+        "$clearpad": {
+            "id":  1,
+            "desc":  "clears the signature pad",
+            "type":  "character",
+            "parameters": [
+            ]
+        },
+        "$isempty": {
+            "id":  2,
+            "desc":  "",
+            "type":  "boolean",
+            "parameters": [
+            ]
+        }
+    },
+    "html": {
+        "template": "<div %o %s data-props='%p' data-mvprops='%m'></div>"
+    }
+}
