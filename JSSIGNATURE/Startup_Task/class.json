@@ -1,6 +1,6 @@
 {
 	"classtype": "kTask",
-	"internalversion": 2,
+	"internalversion": 4,
 	"tvardefs": [
 
 	],
@@ -20,7 +20,7 @@
 		"editordata": "",
 		"external": false,
 		"issupercomponent": false,
-		"moddate": "2017-08-22 11:29:50",
+		"moddate": "2017-09-29 11:38:08",
 		"showascheckedout": false,
 		"userinfo": "",
 		"version": ""

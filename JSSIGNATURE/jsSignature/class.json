@@ -1,6 +1,6 @@
 {
 	"classtype": "kRemoteForm",
-	"internalversion": 784,
+	"internalversion": 840,
 	"nextident": 1007,
 	"lastgroupident": 0,
 	"cvardefs": [
@@ -74,8 +74,8 @@
 		"issupercomponent": false,
 		"layoutbreakpoints": "320,768",
 		"layouttype": "kLayoutTypeResponsive",
-		"left": 307,
-		"moddate": "2017-08-23 14:15:09",
+		"left": 76,
+		"moddate": "2017-09-29 11:39:39",
 		"okkeyobject": "",
 		"serverlessclient": false,
 		"showascheckedout": false,
@@ -86,7 +86,7 @@
 			"type": 0,
 			"calc": "New remote form"
 		},
-		"top": 306,
+		"top": 171,
 		"userinfo": "",
 		"version": "",
 		"vertgrid": 8,

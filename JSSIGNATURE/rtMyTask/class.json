@@ -1,6 +1,6 @@
 {
 	"classtype": "kRemoteTask",
-	"internalversion": 3,
+	"internalversion": 4,
 	"nextident": 1,
 	"tvardefs": [
 		{
@@ -32,7 +32,7 @@
 		"localtime": false,
 		"maxtime": 0,
 		"maxusers": 0,
-		"moddate": "2017-08-22 14:23:17",
+		"moddate": "2017-09-29 11:36:29",
 		"restful": false,
 		"restfulapiname": "",
 		"showascheckedout": false,
