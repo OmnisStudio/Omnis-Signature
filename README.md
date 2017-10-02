@@ -29,9 +29,9 @@ A folder containing an Omnis Studio library exported as JSON to demonstrate the 
 
 ## Installation
 1. Ensure Omnis Studio is closed.
-2. Place the folder net.omnis.signature into the html\controls of your Omnis Studio tree, first creating the folder if it doesn’t already exist.
+2. Place the folder net.omnis.signature into the \html\controls (not \htmlcontrols) of your Omnis Studio tree, first creating the folder if it does not already exist.
 3. Copy ctrl_net_omnis_signature.js and signature_pad.js into \html\scripts of your Omnis Studio tree.
-4. Add the following lines to your html\jsctempl.htm file under the Omnis Studio JavaScript client scripts comment: 
+4. Add the following lines to your \html\jsctempl.htm file under the Omnis Studio JavaScript client scripts comment: 
 ```javascript
  <script type="text/javascript" src="scripts/signature_pad.js"></script>
  <script type="text/javascript" src="scripts/ctl_net_omnis_signature.js"></script>
