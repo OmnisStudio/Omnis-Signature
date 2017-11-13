@@ -44,7 +44,7 @@ ctrl_net_omnis_signature.prototype = (function() {
         this.superclass.init_class_inst.call( this );
 
         // initialize class specific stuff
-        this.mDefaultText = "EMPTY"
+        this.mData = "";
         this.mdotsize = "";
         this.mminwidth = "";
         this.mmaxwidth = "";
@@ -147,6 +147,9 @@ ctrl_net_omnis_signature.prototype = (function() {
      */
     ctrl.updateCtrl = function(what, row, col, mustUpdate)
     {
+        if (!this.getTrueVisibility()) // Only update when control is visible
+            return
+
         var elem = this.getClientElem();
 
         // read $dataname value and display in control
@@ -354,6 +357,19 @@ ctrl_net_omnis_signature.prototype = (function() {
         if (this.mData.length>0)
         {
             this.signaturePad.fromDataURL(this.mData, this.mCanvasOptions);
+        }
+    };
+
+    /**
+     * Called when visibility of the control has changed.
+     * eg. when used on a paged pane and the current page has changed.
+     */
+    ctrl.visibilityChanged = function ()
+    {
+        this.superclass.visibilityChanged.call(this);
+        if (this.getTrueVisibility(null))
+        {
+            this.sizeChanged();
         }
     };
 
